@@ -3,6 +3,7 @@ const express = require('express')
 
 const router = express.Router()
 
+// const {users} = require('./state')
 const {users} = require('../state')
 
 // Now we simply use our "router" just like our "router" to create routes.
